@@ -17,8 +17,9 @@
                     <div class="sick-tabs-title"> Active sick leaves</div>
                     <span><i class="fa fa-ellipsis-h"></i></span>
                 </div>
-                <div class="sick-tab-content animated hide" v-bind:class="{'show slideInLeft': active}">
-                    <div class="sick flex" v-on:click="sickSingle">
+
+                <div class="sick-tab-content animated hide" v-bind:class="{'show fadeIn': active}">
+                    <f7-link href="/sickleave/" class="sick flex">
                         <div class="sick-day">
                             <div class="sick-day-wrap">
                                 <div class="day">DAY</div>
@@ -34,7 +35,7 @@
                         <div class="sick-price">
                             700€
                         </div>
-                    </div>
+                    </f7-link>
                     <div class="sick flex">
                         <div class="sick-day">
                             <div class="sick-day-wrap">
@@ -64,7 +65,7 @@
                     <div class="sick-tabs-title"> Past sick leaves</div>
                     <span><i class="fa fa-ellipsis-h"></i></span>
                 </div>
-                <div class="sick-tab-content animated hide" v-bind:class="{'show slideInLeft': past}">
+                <div class="sick-tab-content animated hide" v-bind:class="{'show fadeIn': past}">
                     <div class="sick flex flex-space">
                         <div class="sick-review">
                             <div class="sum">5 days</div>
@@ -97,8 +98,7 @@
                 }
             },
             sickSingle: function() {
-                // console.log(this.$router);
-                // this.$router.loadPage({pageName: 'sickleaves'});
+
             }
         },
         data: function(){

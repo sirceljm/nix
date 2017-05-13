@@ -503,12 +503,18 @@ p {
     opacity: 0.30;
 	&.active {
 		opacity: 1;
-		border-bottom: 1px solid $brand-primary;
+		border-bottom: 2px solid $brand-primary;
 	}
 }
 .main-top-bar-item-title {
 	font-size: 16px !important;
     width: 150px !important;
+}
+.normal {
+	text-transform: none !important;
+}
+.margin-right-angle {
+	margin-right: 30px;
 }
 ////////////////////
 ////////
@@ -614,6 +620,10 @@ i.fa-check-circle-o {
 	margin-top: -19px;
 }
 .sick {
+	&:hover {
+		text-decoration: none;
+	}
+	color: $color-black;
 	align-items: center;
 	justify-content: space-around;
 	margin-top: 10px;

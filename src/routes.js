@@ -24,6 +24,10 @@ export default [
     component: require('./assets/vue/pages/sickleaves.vue')
   },
   {
+    path: '/sickleave/',
+    component: require('./assets/vue/pages/sickleave.vue')
+  },
+  {
     path: '/login/',
     component: require('./assets/vue/pages/login.vue')
   },
