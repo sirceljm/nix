@@ -23,7 +23,7 @@ import Routes from './routes.js'
 
 // Import App Component
 import App from './main.vue'
-
+window.EventHub = new Vue({});
 // Init F7 Vue Plugin
 Vue.use(Framework7Vue)
 

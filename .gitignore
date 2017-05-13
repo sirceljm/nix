@@ -270,3 +270,7 @@ Temporary Items
 .apdisk
 !/webpack/configs/
 node-modules/
+www/
+platforms/
+plugins/
+hooks/

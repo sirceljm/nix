@@ -28,7 +28,7 @@
 					<f7-page class="landing">
 						<h1 class="landing-title"> Lanceout insurance</h1>
 						<div class="landing-subtitle">We have your back</div>
-
+						<f7-link href="/dashboard/">Dashboard</f7-link>
 						<div class="landing-bottom">
 							<div class="landing-bottom-text">Already have an account with us?</div>
 							<f7-link href="/login/">Login</f7-link>
@@ -38,6 +38,24 @@
 						</div>
 					</f7-page>
 				</f7-pages>
+				<div id="main-nav" class="animated ni" v-bind:class="{'flex bounceInUp':bottom_nav}">
+            <div class="main-nav-item">
+                <i class="fa fa-home"></i>
+            </div>
+            <div class="main-nav-item">
+                <i class="fa fa-desktop"></i>
+            </div>
+            <div class="main-nav-item">
+                <i class="fa fa-question-circle"></i>
+            </div>
+            <div class="main-nav-item active">
+                <i class="fa fa-thermometer-half"></i>
+            </div>
+            <div class="main-nav-item">
+                <i class="fa fa-user"></i>
+            </div>
+        </div>
+
 			</f7-view>
 		</f7-views>
 
@@ -62,8 +80,16 @@
 
 <script>
 	export default {
+		data: function() {
+			return {
+				bottom_nav: false,
+			}
+		},
 		mounted: function(){
-
+			var vm = this;
+			EventHub.$on('nav', function(state){
+				vm.bottom_nav = state;
+			});
 		}
 	}
 </script>

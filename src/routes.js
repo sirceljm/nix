@@ -8,6 +8,10 @@ export default [
     component: require('./assets/vue/pages/form.vue')
   },
   {
+    path: '/dashboard/',
+    component: require('./assets/vue/pages/dashboard.vue')
+  },
+  {
     path: '/login/',
     component: require('./assets/vue/pages/login.vue')
   },
