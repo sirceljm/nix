@@ -29,6 +29,15 @@
 						<h1 class="landing-title"> Lanceout insurance</h1>
 						<div class="landing-subtitle">We have your back</div>
 						<f7-link href="/dashboard/">Dashboard</f7-link>
+						<div>
+							<f7-link href="/thank-you/">Thank you</f7-link>
+						</div>
+						<div>
+							<f7-link href="/recording-complete/">recording complete</f7-link>
+						</div>
+						<div>
+							<f7-link href="/sickleaves/">Sickleaves</f7-link>
+						</div>
 						<div class="landing-bottom">
 							<div class="landing-bottom-text">Already have an account with us?</div>
 							<f7-link href="/login/">Login</f7-link>
@@ -52,7 +61,7 @@
                 <i class="fa fa-thermometer-half"></i>
             </div>
             <div class="main-nav-item">
-                <i class="fa fa-user"></i>
+                <i class="fa fa-shield"></i>
             </div>
         </div>
 

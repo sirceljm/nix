@@ -13,26 +13,24 @@
         </div>
         <div id="main-content">
             <div class="main-content-center">
-                <div class="main-content-desc">
-                    We are really sorry to hear you're not feeling well
-                </div>
                 <div class="title-large dashboard-title">
-                    Get better soon!
+                   <div>Recording complete.</div>
+                   <div class="check">
+                       <i class="fa fa-check-circle-o">
+                       </i>
+                   </div>
                 </div>
             </div>
         </div>
         <div id="main-bottom">
-                <div class="main-content-desc margin-bottom-10 ">
-                    Here are your options
-                </div>
+            <div class="main-content-desc margin-bottom-10 text-center">
+                Increase your daily compensation by 40%
+            </div>
+            <div class="main-content-desc margin-bottom-10 text-center width-80 helper-color margin-top-0">
+                After submiting the video your daily compensation will increase from 50€ to 70€.
+            </div>
             <div class="btn btn-primary btn-width btn-margin">
-                Record a video
-            </div>
-            <div class="btn btn-info btn-width btn-margin">
-                Submit doctor's report
-            </div>
-            <div class="btn btn-info btn-width btn-margin">
-                Leave me alone
+                Submit the video
             </div>
         </div>
 	</f7-page>

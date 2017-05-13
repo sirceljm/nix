@@ -12,6 +12,18 @@ export default [
     component: require('./assets/vue/pages/dashboard.vue')
   },
   {
+    path: '/thank-you/',
+    component: require('./assets/vue/pages/thankyou.vue')
+  },
+   {
+    path: '/recording-complete/',
+    component: require('./assets/vue/pages/submitvideo.vue')
+  },
+  {
+    path: '/sickleaves/',
+    component: require('./assets/vue/pages/sickleaves.vue')
+  },
+  {
     path: '/login/',
     component: require('./assets/vue/pages/login.vue')
   },

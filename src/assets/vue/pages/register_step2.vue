@@ -6,6 +6,22 @@
         <div class="title-desc-wrap">
             Please provide your personal information in the fields below so we can get started.
         </div>
+        <f7-toolbar class="bottom-nav" bottom>
+           <div class="text-center bottom-nav-links button-col">
+                <a class="link ">
+                    <div class="" v-on:click="goBack">
+                       <span class="hidden-color"><i class=" margin-right fa fa-angle-left"></i></span>
+                            BACK
+                    </div>
+                </a>
+               <f7-link href="/signup-step3/">
+                   <div class="text-center">
+                       next
+                       <span class="hidden-color"><i class=" margin-left fa fa-angle-right"></i></span>
+                   </div>
+               </f7-link>
+           </div>
+       </f7-toolbar>
         <f7-block>
             <div class="form-content-wrap">
                 <div class="form-group">
@@ -28,7 +44,7 @@
             <span class="bullet active"></span>
             <span class="bullet"></span>
         </div>
-        <div class="bottom-nav flex flex-center">
+        <!-- <div class="bottom-nav flex flex-center">
             <div class="text-center bottom-nav-links">
                 <div class="col-xs-6 button-col">
                     <span class="hidden-color"><i class="fa fa-angle-left"></i></span>
@@ -39,7 +55,7 @@
                         <span class="hidden-color"><i class="fa fa-angle-right"></i></span>
                 </div>
             </div>
-        </div>
+        </div> -->
 	</f7-page>
 </template>
 
